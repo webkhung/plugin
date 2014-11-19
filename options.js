@@ -10,7 +10,7 @@ function save_options() {
 }
 
 function restore_options() {
-    document.getElementById('font-size').value = (localStorage["fontSize"] || '16px');
+    document.getElementById('font-size').value = (localStorage["fontSize"] || '20px');
     document.getElementById('line-height').value = (localStorage["lineHeight"] || '1.5em');
 }
 

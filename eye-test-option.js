@@ -7,23 +7,20 @@
         var addPreviousResults, allTests, biggerValueIsPicked, buildResult, fontSizeClasses, hasMoreOptionsInSameTest, hasMoreTests, label, labelTransition, lineHeightClasses, optionText, selectedOptions, startEyeTest;
         fontSizeClasses = [
             {
-                'class': 'font-size-15',
-                'ckvalue': 'font-size:15px'
-            }, {
                 'class': 'font-size-17',
                 'ckvalue': 'font-size:17px'
             }, {
                 'class': 'font-size-20',
                 'ckvalue': 'font-size:20px'
             }, {
-                'class': 'font-size-24',
-                'ckvalue': 'font-size:24px'
+                'class': 'font-size-22',
+                'ckvalue': 'font-size:22px'
             }
         ];
         lineHeightClasses = [
             {
-                'class': 'line-height-1-3',
-                'ckvalue': 'line-height:1.3em'
+                'class': 'line-height-1-5',
+                'ckvalue': 'line-height:1.5em'
             }, {
                 'class': 'line-height-1-7',
                 'ckvalue': 'line-height:1.7em'
@@ -32,7 +29,7 @@
                 'ckvalue': 'line-height:2.0em'
             }
         ];
-        optionText = [['<strong>Smaller</strong> Line Spacing', '<strong>Bigger</strong> Line Spacing', '<strong>Even Bigger</strong> Line Spacing'], ['<strong>Smaller</strong> Font Size', '<strong>Bigger</strong> Font Size', '<strong>Even Bigger</strong> Font Size', '<strong>EVEN BIGGER</strong> Font Size'], ['<strong>Lower</strong> Contrast', '<strong>Higher</strong> Contrast', '<strong>Even Higher</strong> Contrast']];
+        optionText = [['<strong>Smaller</strong> Line Spacing', '<strong>Bigger</strong> Line Spacing', '<strong>Even Bigger</strong> Line Spacing'], ['<strong>Smaller</strong> Font Size', '<strong>Bigger</strong> Font Size', '<strong>Even Bigger</strong> Font Size'], ['<strong>Lower</strong> Contrast', '<strong>Higher</strong> Contrast', '<strong>Even Higher</strong> Contrast']];
         allTests = [lineHeightClasses, fontSizeClasses];
         selectedOptions = [];
         label = ["<p>Click The <strong style='color:#FF6600'>Line Spacing</strong> You Prefer</p>", "<p>Click The <strong style='color:#0082C3'>Font Size</strong> You Prefer</p>", "<p>Click The <strong style='color:#FF6600'>Contrast</strong> You Prefer</p>"];

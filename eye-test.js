@@ -19,7 +19,7 @@ window.customizePage = function(settings) {
             i++;
         }
         return $('p, span, blockquote, li, div').each(function() {
-            if ($(this).width() > 350 && (!$(this).is('div') || ($(this).is('div') && $(this).children('div').length == 0)) ) {
+            if ($(this).offset().top > 150 &&  $(this).width() > 350 && (!$(this).is('div') || ($(this).is('div') && $(this).children('div').length == 0)) ) {
                 var oldSize = $(this).css('font-size');
                 if (oldSize.indexOf('px') > 0){
                     oldFontSize = parseInt(oldSize.substring(0, oldSize.indexOf('px')))
